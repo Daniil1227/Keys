@@ -150,9 +150,10 @@ img, img.responsive {
 /* ------------- Extra Classes ------------- */
 .text-extrabold {
 	font-weight: 800;
+    margin-top: auto;
 }
 .text-bold {
-	font-weight: 700;
+	font-weight: 500;
 }
 .light-italic {
 	font-family: 'Open Sans', sans-serif;
@@ -170,7 +171,7 @@ img, img.responsive {
 	font-style: italic;
 }
 .color-greenalt {
-	color: #CCC81E;
+	color: #00f0b0;
 }
 .color-grey {
 	color: #7f8c8d;
@@ -179,7 +180,13 @@ img, img.responsive {
 	color: #FFFFFF;
 }
 .color-blue {
-	color: #18549C;
+	color: #000000;
+}
+.pr-size {
+    font-size: 70px;
+}
+.pr-size1 {
+    font-size: 46px;
 }
 .pageloader { 
 	background: url(../images/loader.gif) center center no-repeat #fff;  
@@ -190,15 +197,15 @@ img, img.responsive {
     z-index: 99999;	
 }
 /* ------------- Section Background ------------- */
-.header-section { background-color:#cdc81e; }
+.header-section { background-color:#000000; }
 .features-section  { background-color:#ecf0f1; }
 .reviews-section { background-color:#ffffff; }
-.app-services-section { background-color:#18549b; }
+.app-services-section { background-color:#00f0b0; }
 .app-screen-section { background-color:#ecf0f1; }
 .pricing-section { background-color:#ffffff; }
-.video-section { background-color:#2c3e50; }
+.video-section { background-color:#000000; }
 .download-section { background-color:#ecf0f1; }
-.contact-section { background-color:#cdc81e; }
+.contact-section { background-color:#000000; }
 
 .section-padding {
 	padding: 100px 0;
@@ -206,7 +213,7 @@ img, img.responsive {
 
 /* ------- Social Icon Hover Styles ------- */
 .gk-facebook:hover, .gk-facebook:focus, .gk-facebook:active {
-	background: #3B5999;
+	background: #000000;
 	color: #fff;
 }
 .gk-twitter:hover, .gk-twitter:focus, .gk-twitter:active {
@@ -305,9 +312,9 @@ img, img.responsive {
 }
 /* ------------- Logo & Menu ------------- */
 .logo-container {
-	background: rgba(24,84,156,0.9);
+	background: #000000;
 	color: #fff;
-	padding: 16px 0 13px;
+	padding: 16px 0 0px;
 }
 .sticky-navigation {
 	width: 100%;
@@ -322,14 +329,14 @@ img, img.responsive {
 .top-navbar ul.nav a {	
 	font-size: 13px;
 	font-weight: 800;	
-	color: #CCC81E;
+	color: #00f0b0;
 }
 .top-navbar ul.nav a:hover, .top-navbar ul.nav a:focus, .top-navbar ul.nav a:active, .top-navbar ul.nav li.active a {
 	background:none !important;
 	color: #fff;
 }
 .navbar-toggle {
-	background-color: #CCC81E;
+	background-color: #00f0b0;
 	margin-top:-40px;
 	margin-right:0px;
 }
@@ -436,7 +443,7 @@ img, img.responsive {
 }
 .banner-left-margin {
 	margin-left: 45px;
-	margin-bottom: 12px;
+	margin-bottom: 0px;
 }
 /* ------------- Right Banner Styles ------------- */
 .right-banner-image {
@@ -499,6 +506,7 @@ img, img.responsive {
 	font-size: 14px;
 	padding-right: 4px;
 	text-shadow: 0 0 0;
+    color: #00f0b0;
 }
 .gk-list li.no-border {
 	border: none;
@@ -538,8 +546,8 @@ img, img.responsive {
 	border-right: 1px solid #bdc3c7;
 }
 .ipad-shot-wrapper {
-	margin-top: -130px;	
-	margin-left: -25px;
+	margin-top: -287px;	
+	margin-left: -250px;
 }
 .features-right-info {
 	position: static;
@@ -623,7 +631,7 @@ img, img.responsive {
 }
 .awesome-services {
     background: none repeat scroll 0 0 #fff;
-    border: 1px solid #397ed1;
+    border: 1px solid #000000;
     border-radius: 12px;	
 	max-width: 312px;
 	margin: 0 auto;
@@ -703,7 +711,7 @@ img, img.responsive {
 	margin: 0 auto;
 }
 .pricing-title {
-	background: none repeat scroll 0 0 #1a2836;
+	background: none repeat scroll 0 0 #000000;
     border-radius: 10px 10px 0 0;
     padding: 20px 0;
 }
@@ -719,7 +727,7 @@ img, img.responsive {
 .pricing-box .price h6 { 
 	font-size: 90px;
 	line-height: 90px;
-	padding-left: 20px;
+	padding-left: 0px;
 	margin-top: 15px;
 	margin-bottom: 20px;
 }
